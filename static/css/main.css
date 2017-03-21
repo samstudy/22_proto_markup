@@ -1,0 +1,86 @@
+
+#start_page{
+	width: 800px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom: 50px;
+}
+
+.list-inline{
+	height:80px;
+	padding-left:100px;
+	font-size:20px;
+	padding-top:30px;
+	padding-bottom:50px;
+}
+
+.text-center{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size:45px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+.row{
+	font-size:15px;
+}
+
+
+#katalog-text{
+	font-size:15px;
+}
+#katalog-img{
+	font-size:25px;
+}
+
+
+#card{
+border:solid 2px black;
+margin-left:150px;
+margin-top:50px;
+
+}  
+
+
+#card-link{
+
+margin-left:150px;
+margin-top:30px;
+
+}  
+
+#footer-button{
+	margin-left:145px;
+}
+
+
+#carousel-index{
+	width:300px;
+	position:absolute;
+}
+
+.item{
+	border: 2px solid black;
+	
+	width:370px;
+	height:100px;
+
+}
+
+#MyButton{
+	padding-top:300px;
+}
+
+#MyCarusel{
+	padding-top:60px;
+	padding-bottom: 70px;
+}
+
+
+#head_word_size{
+	font-size:30px;
+	
+}

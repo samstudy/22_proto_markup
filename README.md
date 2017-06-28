@@ -1,8 +1,11 @@
 # Suppliers in Novosibirsk
-____
-> **The script will jenerate a site for suppliers from Novosibirsk.**
 
-##Requirement
+```
+The script will jenerate a site for suppliers from Novosibirsk.
+```
+
+
+## Requirement
 Need to install usefull module **staticjinja** do it run command:
 ```
 pip install -r requirement.txt

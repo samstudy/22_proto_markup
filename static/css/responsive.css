@@ -9,14 +9,14 @@
 .list-inline{
     height:80px;
     padding-left:100px;
-    font-size:20px;
+    font-size:40px;
     padding-top:30px;
     padding-bottom:50px;
 }
 
 .text-center{
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size:45px;
+    font-size:70px;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -25,11 +25,11 @@
 
 
 .row{
-    font-size:15px;
+    font-size:30px;
 }
 
 .text-center{
-    font-size:25px;
+    font-size:50px;
 }
 
 
@@ -78,6 +78,6 @@ margin-top:30px;
 
 
 #head_word_size{
-    font-size:30px;
+    font-size:60px;
     
 }

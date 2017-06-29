@@ -15,7 +15,7 @@ On console run the script :
 ```
 python3.5 render_site.py
 ```
-Result you may find [Here](https://samstudy.github.io/22_proto_markup/index.html)
+Result you may find [Here](https://samstudy.github.io/22_proto_markup/result/index.html)
 
 # Project Goals
 

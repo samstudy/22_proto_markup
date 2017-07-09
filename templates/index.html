@@ -2,19 +2,26 @@
 
 {% block content %}
 
-<ul class="list-inline">
+<div class="container">
 
-  <li>Участники в Новосибирске:</li>
+<ul class="row list-inline">
+
+  <li><h4>Участники в Новосибирске:</h4></li>
   <li><a href="katalog_main.html">105 оптовых компаний</a></li>
   <li><a href="katalog_main.html">25 производителей</a></li>
 
 </ul>
 
-<div id="start_page" class="container">
-<p class="text-center">вам позвонят лучшие поставщики новосибирска</p>
-    <div class="jumbotron">
-  
-  <h2>Я ищу</h2>
+
+<div class="row"> <div class="col-md-9 col-md-offset-2">
+<h1>Вам позвонят лучшие поставщики новосибирска</h1></div>
+</div>
+
+<div class="row" >
+
+ <div class="col-md-8 col-md-offset-2 well" >
+ 
+  <div class="col-md-6"><h2>Я ищу</h2></div>
   
 <div class="checkbox">
   <label><input type="checkbox" value="">ЖБИ(фундаментальные блоки ФБС,плиты перекрытий ПК,перемычки)</label>
@@ -39,35 +46,39 @@
     </div>
 
 <form class="form-horizontal">
-  <div class="form-group">
-    <label for="description" class="col-sm-2 control-label">Описание *</label>
-    <div class="col-sm-10">
-      <input  id="description" class="form-control" >
-    <span id="helpBlock" class="help-block">Пример: нyжно фбс 24.4.6 50 шт плиты пк 20 ПК 60-20-12 доставка в Новолуговое.</span>
-    </div>
-  </div>
- </form>
+         <div class="form-group">
+            <label for="description" class="col-sm-2 control-label">Описание *</label>
+            <div class="col-sm-10">
+               <textarea class="form-control" rows="2"></textarea>
+               
+            </div>
+         </div>
+      </form>
  
-<form class="form-horizontal">
+
+       <form class="form-inline" role="form">
   <div class="form-group">
-    <label for="description" class="col-sm-2 control-label">Телефон *</label> 
-   <div class="col-xs-4">
-    <input type="text" class="form-control">
+
+     <label for="description" class="col-sm-4 control-label">Телефон *</label>  <div class="col-sm-6">
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email"></div>
   </div>
-  <label for="description" class="col-sm-2 control-label">Имя</label> 
-  <div class="col-xs-4">
-    <input type="text" class="form-control">
-  </div>
+  <div class="form-group col-md-offset-1">
+   <label for="description" class="col-sm-3 control-label">Имя *</label>  <div class="col-sm-6">
+    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password"></div>
   </div>
 </form>
+    <span id="helpBlock" class="help-block"></span>
 
- <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Опубликовать Заявку</button></div>
+<div class="text-center"><button type="button" class="btn btn-primary btn-lg">Опубликовать Заявку</button></div>
 
-
-  </div>
-  
+ </div>
+   </div>
  <h2 class="text-center">Свежие заявки</h2>
  
+
+ 
+
+  <div class="col-md-8 col-md-offset-2" >
 <div class="row">
   
  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
@@ -144,6 +155,7 @@
     </tbody>
   
   </table>
+  </div>
   
   <div class="text-center">
   <a href="orders.html" class="btn btn-default btn-lg" role="button">Посмотреть все заявки</a>
@@ -153,7 +165,7 @@
 
   <!-- Controls -->
   
-
+ <div class="col-md-8 col-md-offset-2" >
 <div id="MyCarusel">
   <div class="col-md-1">
  
@@ -163,7 +175,7 @@
   </a>
   
   </div>
-<div class="col-md-6">
+<div class="col-md-7">
 <div id="MyCaruselLink" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   
@@ -176,7 +188,17 @@
   
     <div class="item active">
 
-    <div class="col-md-11">
+  
+      <!--<div class="carousel-caption">--> 
+        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
+        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
+    Бла-бла,мне помогло,все супер!</p>
+      <!--</div>-->
+
+    </div>
+
+    <div class="item">
+      <div class="col-md-11">
       <!--<div class="carousel-caption">--> 
         <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
         <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
@@ -186,7 +208,7 @@
     </div>
 
     <div class="item">
-      <div class="col-md-12">
+      <div class="col-md-11">
       <!--<div class="carousel-caption">--> 
         <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
         <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
@@ -196,17 +218,7 @@
     </div>
 
     <div class="item">
-      <div class="col-md-12">
-      <!--<div class="carousel-caption">--> 
-        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
-        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
-    Бла-бла,мне помогло,все супер!</p>
-      <!--</div>-->
-    </div>
-    </div>
-
-    <div class="item">
-     <div class="col-md-12">
+     <div class="col-md-11">
       <!--<div class="carousel-caption">--> 
         <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
         <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
@@ -233,16 +245,23 @@
   </div>
   
    <div class="col-md-4">
-<button type="button" class="btn btn-default" aria-label="Right Align">Посмотреть все заявки</button>
+<button type="button" class="btn btn-default" aria-label="Right Align">Оставить отзыв</button>
 </div>
   
  </div> 
+ </div>
  <script> $('.carousel').carousel({
   interval: 2000
 })</script>
   
-  
+
+
+
+
+
 </div>
+
+
 
 {% endblock %}
 

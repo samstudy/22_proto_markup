@@ -1,267 +1,225 @@
-{% extends "footer.html" %}
-
+{% extends "base_layout.html" %}
 {% block content %}
-
 <div class="container">
-
-<ul class="row list-inline">
-
-  <li><h4>Участники в Новосибирске:</h4></li>
-  <li><a href="katalog_main.html">105 оптовых компаний</a></li>
-  <li><a href="katalog_main.html">25 производителей</a></li>
-
-</ul>
-
-
-<div class="row"> <div class="col-md-9 col-md-offset-2">
-<h1>Вам позвонят лучшие поставщики новосибирска</h1></div>
-</div>
-
-<div class="row" >
-
- <div class="col-md-8 col-md-offset-2 well" >
- 
-  <div class="col-md-6"><h2>Я ищу</h2></div>
-  
-<div class="checkbox">
-  <label><input type="checkbox" value="">ЖБИ(фундаментальные блоки ФБС,плиты перекрытий ПК,перемычки)</label>
-</div>
-<div class="checkbox">
-  <label><input type="checkbox" value="">Кирпич / Газобетон / Брус</label>
-</div>
-<div class="checkbox">
-  <label><input type="checkbox" value="">Бетон / Раствор</label>
-</div>
-
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новосибирск и область <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-
-<form class="form-horizontal">
-         <div class="form-group">
-            <label for="description" class="col-sm-2 control-label">Описание *</label>
-            <div class="col-sm-10">
-               <textarea class="form-control" rows="2"></textarea>
-               
+   <ul class="row list-inline">
+      <li>
+         <h4>Участники в Новосибирске:</h4>
+      </li>
+      <li><a href="katalog_main.html">105 оптовых компаний</a></li>
+      <li><a href="katalog_main.html">25 производителей</a></li>
+   </ul>
+   <div class="row">
+      <div class="col-md-9 col-md-offset-2">
+         <h1>Вам позвонят лучшие поставщики новосибирска</h1>
+      </div>
+   </div>
+   <div class="row" >
+      <div class="col-md-8 col-md-offset-2 well" >
+         <div class="col-md-6">
+            <h2>Я ищу</h2>
+         </div>
+         <div class="checkbox">
+            <label><input type="checkbox" value="">ЖБИ(фундаментальные блоки ФБС,плиты перекрытий ПК,перемычки)</label>
+         </div>
+         <div class="checkbox">
+            <label><input type="checkbox" value="">Кирпич / Газобетон / Брус</label>
+         </div>
+         <div class="checkbox">
+            <label><input type="checkbox" value="">Бетон / Раствор</label>
+         </div>
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
+            <ul class="nav navbar-nav">
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новосибирск и область <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="#">Action</a></li>
+                     <li><a href="#">Another action</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <form class="form-horizontal">
+            <div class="form-group">
+               <label for="description" class="col-sm-2 control-label">Описание *</label>
+               <div class="col-sm-10">
+                  <textarea class="form-control" rows="2"></textarea>
+               </div>
+            </div>
+         </form>
+         <form class="form-inline" role="form">
+            <div class="form-group">
+               <label for="description" class="col-sm-4 control-label">Телефон *</label>  
+               <div class="col-sm-6">
+                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+               </div>
+            </div>
+            <div class="form-group col-md-offset-1">
+               <label for="description" class="col-sm-3 control-label">Имя *</label>  
+               <div class="col-sm-6">
+                  <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+               </div>
+            </div>
+         </form>
+         <span id="helpBlock" class="help-block"></span>
+         <div class="text-center"><button type="button" class="btn btn-primary btn-lg">Опубликовать Заявку</button></div>
+      </div>
+   </div>
+   <h2 class="text-center">Свежие заявки</h2>
+   <div class="col-md-8 col-md-offset-2" >
+      <div class="row">
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <div class="col-md-6">
+               <p class="navbar-text navbar-left">Раздел</p>
+               <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Все<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-md-6">
+               <p class="navbar-text navbar-left">Регион</p>
+               <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новосибирск и область<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                     </ul>
+                  </li>
+               </ul>
             </div>
          </div>
-      </form>
- 
-
-       <form class="form-inline" role="form">
-  <div class="form-group">
-
-     <label for="description" class="col-sm-4 control-label">Телефон *</label>  <div class="col-sm-6">
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email"></div>
-  </div>
-  <div class="form-group col-md-offset-1">
-   <label for="description" class="col-sm-3 control-label">Имя *</label>  <div class="col-sm-6">
-    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password"></div>
-  </div>
-</form>
-    <span id="helpBlock" class="help-block"></span>
-
-<div class="text-center"><button type="button" class="btn btn-primary btn-lg">Опубликовать Заявку</button></div>
-
- </div>
+      </div>
+      <table class="table">
+         <tbody>
+            <tr>
+               <td>
+                  <p>Вчера, в 21:00</p>
+                  <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
+                  <p>Алексей</p>
+                  <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
+               </td>
+               <td></td>
+               <td>
+                  <p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Вчера, в 21:00</p>
+                  <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
+                  <p>Алексей</p>
+                  <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
+               </td>
+               <td></td>
+               <td>
+                  <p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Вчера, в 21:00</p>
+                  <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
+                  <p>Алексей</p>
+                  <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
+               </td>
+               <td></td>
+               <td>
+                  <p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Вчера, в 21:00</p>
+                  <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
+                  <p>Алексей</p>
+                  <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
+               </td>
+               <td></td>
+               <td>
+                  <p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
    </div>
- <h2 class="text-center">Свежие заявки</h2>
- 
-
- 
-
-  <div class="col-md-8 col-md-offset-2" >
-<div class="row">
-  
- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-    <div class="col-md-6">
-     <p class="navbar-text navbar-left">Раздел</p>
-      <ul class="nav navbar-nav">
-    
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Все<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-   <div class="col-md-6">
-   <p class="navbar-text navbar-left">Регион</p>
-  <ul class="nav navbar-nav">
-       
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новосибирск и область<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    </div>
-  </div>
-
-  <table class="table">
-  
-    <tbody>
-      <tr>
-        <td><p>Вчера, в 21:00</p>
-    <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
-    <p>Алексей</p>
-    <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
-    </td>
-        <td></td>
-        <td><p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p></td>
-    </tr>
-    <tr>
-        <td><p>Вчера, в 21:00</p>
-    <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
-    <p>Алексей</p>
-    <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
-    </td>
-        <td></td>
-        <td><p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p></td>
-     </tr>
-     
-      <tr>
-        <td><p>Вчера, в 21:00</p>
-    <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
-    <p>Алексей</p>
-    <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
-    </td>
-        <td></td>
-        <td><p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p></td>
-    </tr>
-    
-    <tr>
-        <td><p>Вчера, в 21:00</p>
-    <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановкой,с доставкой.</p>
-    <p>Алексей</p>
-    <button class="btn btn-default" type="submit">Показать телефон</button> <span>12 просмотров</span>
-    </td>
-        <td></td>
-        <td><p class="text-right"><a href="#"><ins>&#9734; в закладки</ins></a></p></td>
-    </tr>
-    </tbody>
-  
-  </table>
-  </div>
-  
-  <div class="text-center">
-  <a href="orders.html" class="btn btn-default btn-lg" role="button">Посмотреть все заявки</a>
-
-  </div>
- 
-
-  <!-- Controls -->
-  
- <div class="col-md-8 col-md-offset-2" >
-<div id="MyCarusel">
-  <div class="col-md-1">
- 
-  <a href="#MyCaruselLink" role="button" class="btn btn-default" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  
-  </div>
-<div class="col-md-7">
-<div id="MyCaruselLink" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  
- 
-  <!--  Wrapper for slides -->
-
-
-  <div class="carousel-inner" >
-
-  
-    <div class="item active">
-
-  
-      <!--<div class="carousel-caption">--> 
-        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
-        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
-    Бла-бла,мне помогло,все супер!</p>
-      <!--</div>-->
-
-    </div>
-
-    <div class="item">
-      <div class="col-md-11">
-      <!--<div class="carousel-caption">--> 
-        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
-        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
-    Бла-бла,мне помогло,все супер!</p>
-      <!--</div>-->
-    </div>
-    </div>
-
-    <div class="item">
-      <div class="col-md-11">
-      <!--<div class="carousel-caption">--> 
-        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
-        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
-    Бла-бла,мне помогло,все супер!</p>
-      <!--</div>-->
-    </div>
-    </div>
-
-    <div class="item">
-     <div class="col-md-11">
-      <!--<div class="carousel-caption">--> 
-        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
-        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
-    Бла-бла,мне помогло,все супер!</p>
-      <!--</div>-->
-    </div>
-    </div>
- 
-  </div>
- 
- 
-  <!-- Left and right controls -->
-  
-
+   <div class="text-center">
+      <a href="orders.html" class="btn btn-default btn-lg" role="button">Посмотреть все заявки</a>
+   </div>
+   <!-- Controls -->
+   <div class="col-md-8 col-md-offset-2" >
+      <div id="MyCarusel">
+         <div class="col-md-1">
+            <a href="#MyCaruselLink" role="button" class="btn btn-default" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+         </div>
+         <div class="col-md-7">
+            <div id="MyCaruselLink" class="carousel slide" data-ride="carousel">
+               <!-- Indicators -->
+               <!--  Wrapper for slides -->
+               <div class="carousel-inner" >
+                  <div class="item active">
+                     <!--<div class="carousel-caption">--> 
+                     <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
+                     <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
+                        Бла-бла,мне помогло,все супер!
+                     </p>
+                     <!--</div>-->
+                  </div>
+                  <div class="item">
+                     <div class="col-md-11">
+                        <!--<div class="carousel-caption">--> 
+                        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
+                        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
+                           Бла-бла,мне помогло,все супер!
+                        </p>
+                        <!--</div>-->
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="col-md-11">
+                        <!--<div class="carousel-caption">--> 
+                        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
+                        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
+                           Бла-бла,мне помогло,все супер!
+                        </p>
+                        <!--</div>-->
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="col-md-11">
+                        <!--<div class="carousel-caption">--> 
+                        <p><strong>Кирилл,29 лет,г.Барабинск</strong></p>
+                        <p>Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!Бла-бла,мне помогло,все супер!
+                           Бла-бла,мне помогло,все супер!
+                        </p>
+                        <!--</div>-->
+                     </div>
+                  </div>
+               </div>
+               <!-- Left and right controls -->
+            </div>
+         </div>
+         <div class="col-md-1">
+            <a href="#MyCaruselLink"  class="btn btn-default" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
+         <div class="col-md-4">
+            <button type="button" class="btn btn-default" aria-label="Right Align">Оставить отзыв</button>
+         </div>
+      </div>
+   </div>
+   <script> $('.carousel').carousel({
+      interval: 2000
+      })
+   </script>
 </div>
-</div>
-  <div class="col-md-1">
-  
-   <a href="#MyCaruselLink"  class="btn btn-default" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-
-  </div>
-  
-   <div class="col-md-4">
-<button type="button" class="btn btn-default" aria-label="Right Align">Оставить отзыв</button>
-</div>
-  
- </div> 
- </div>
- <script> $('.carousel').carousel({
-  interval: 2000
-})</script>
-  
-
-
-
-
-
-</div>
-
-
-
 {% endblock %}
-

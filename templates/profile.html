@@ -1,62 +1,44 @@
-{% extends "header.html" %}
-
+{% extends "base_layout.html" %}
 {% block profile %}
-  <div class="container">
-  
-  <div class="row">
- 
-        <div class="col-md-1">
-    
-     <a href="#"><img src="../static/pic/home.png" 
-  width="40" height="40" alt="lorem"></a>
-  
-        </div>
-
-      <div class="col-md-3">
-   
-   <p><a href="index.html" class="navbar-link">Главная</a> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>Личный кабинет</p>
-        </div>
-
-    </div>
-    <div class="row">
+<div class="container">
    <div class="row">
-   <div class="col-md-5">
-    <h3 class="text-right">Личный кабинет</h3>
-    </div>
-    <div class="col-md-5">
-    <h3 class="text-right"><a href="orders.html" class="navbar-link">Перейти к заявкам</a></h3>
-    </div>
-     </div>
-        <div class="col-md-9">
-            <!-- tabs left -->
-            <div class="tabbable">
-                <ul class="nav nav-pills nav-stacked col-md-3">
-                    <li><a href="#a" data-toggle="tab">Моя организация</a></li>
-                    <li class="active"><a href="#b" data-toggle="tab">Смена пароля</a></li>
-                    <li><a href="#c" data-toggle="tab">Моя рассылка</a></li>
-                </ul>
-                <div class="tab-content col-md-9">
-                    <div class="tab-pane active" id="a">Lorem ipsum dolor sit amet, charetra varius rci quis tortor imperdiet venenatis quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</div>
-                    <div class="tab-pane" id="b">Secondo sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</div>
-                    <div class="tab-pane" id="c">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum auctor accumsan. Duis pharetra
-                    varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae. </div>
-                </div>
+      <div class="col-md-1">
+         <a href="#"><img src="../static/pic/home.png" 
+            width="40" height="40" alt="lorem"></a>
+      </div>
+      <div class="col-md-3">
+         <p><a href="index.html" class="navbar-link">Главная</a> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>Личный кабинет</p>
+      </div>
+   </div>
+   <div class="row">
+      <div class="row">
+         <div class="col-md-5">
+            <h3 class="text-right">Личный кабинет</h3>
+         </div>
+         <div class="col-md-5">
+            <h3 class="text-right"><a href="orders.html" class="navbar-link">Перейти к заявкам</a></h3>
+         </div>
+      </div>
+      <div class="col-md-9">
+         <!-- tabs left -->
+         <div class="tabbable">
+            <ul class="nav nav-pills nav-stacked col-md-3">
+               <li><a href="#a" data-toggle="tab">Моя организация</a></li>
+               <li class="active"><a href="#b" data-toggle="tab">Смена пароля</a></li>
+               <li><a href="#c" data-toggle="tab">Моя рассылка</a></li>
+            </ul>
+            <div class="tab-content col-md-9">
+               <div class="tab-pane active" id="a">Lorem ipsum dolor sit amet, charetra varius rci quis tortor imperdiet venenatis quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</div>
+               <div class="tab-pane" id="b">Secondo sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</div>
+               <div class="tab-pane" id="c">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum auctor accumsan. Duis pharetra
+                  varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae. 
+               </div>
             </div>
-            <!-- /tabs -->
-        </div>
-    </div>
-    <!-- /row -->
+         </div>
+         <!-- /tabs -->
+      </div>
+   </div>
+   <!-- /row -->
 </div>
-
 <hr>
 {% endblock %}
-
-
-
-
-
-
-
-
-
-

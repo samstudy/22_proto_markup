@@ -1,18 +1,20 @@
 # Suppliers in Novosibirsk
-____
-> **The script will jenerate a site for suppliers from Novosibirsk.**
 
-##Requirement
+```sh
+The script will jenerate a site for suppliers from Novosibirsk.
+
+```
+## Requirement
 Need to install usefull module **staticjinja** do it run command:
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 ### Usage:
 On console run the script :
 ```
 python3.5 render_site.py
 ```
-Result you may find [Here](https://samstudy.github.io/22_proto_markup/index.html)
+Result you may find [https://samstudy.github.io/22_proto_markup/result/index.html](https://samstudy.github.io/22_proto_markup/index.html)
 
 # Project Goals
 

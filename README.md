@@ -1,11 +1,11 @@
 # Suppliers in Novosibirsk
 
-```sh
-The script will jenerate a site for suppliers from Novosibirsk.
+```
+The script will generate a site for suppliers from Novosibirsk.
 
 ```
 ## Requirement
-Need to install usefull module **staticjinja** do it run command:
+Need to install usefull module **staticjinja** for do it run command:
 ```
 pip install -r requirements.txt
 ```
@@ -14,7 +14,7 @@ On console run the script :
 ```
 python3.5 render_site.py
 ```
-Result you may find [https://samstudy.github.io/22_proto_markup/result/index.html](https://samstudy.github.io/22_proto_markup/index.html)
+Result you may find [https://samstudy.github.io/22_proto_markup/result/index.html](https://samstudy.github.io/22_proto_markup/result/index.html)
 
 # Project Goals
 

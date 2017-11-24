@@ -64,19 +64,13 @@ margin-top:30px;
 	position:absolute;
 }
 
-.item{
-	border: 2px solid black;
-	
-	width:370px;
-	height:100px;
 
-}
 
 #MyButton{
 	padding-top:300px;
 }
 
-#MyCarusel{
+#myCarousel{
 	padding-top:60px;
 	padding-bottom: 70px;
 }
@@ -85,4 +79,21 @@ margin-top:30px;
 #head_word_size{
 	font-size:30px;
 	
+}
+#myitem{
+	    height: 160px;
+		width: 300px;
+		border: none;
+
+}
+#mycarousel-caption{
+	border:black;
+	width: 300px;
+	padding-top:30px;
+}
+
+.item {
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
 }
